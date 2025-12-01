@@ -1,0 +1,14 @@
+# Test dictionary
+test_dict = {'codingal': 3, 'is': 2, 'best': 1, 'for': 2, 'coding': 1}
+
+# Print the dictionary
+print("Test Dictionary:", test_dict)
+
+# Ask the user for the value to check
+value = int(input("Enter the value whose frequency you want to check: "))
+
+# Count how many times the value appears
+frequency = list(test_dict.values()).count(value)
+
+# Print the frequency
+print("Frequency of", value, "is:", frequency)
